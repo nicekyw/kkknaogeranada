@@ -1,0 +1,91 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    body{
+      font-style: Arial;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    #index{
+      background-image: url("fundo.png");
+       background-position: center;
+       background-repeat: no-repeat;
+
+    }
+    h2{
+      padding: 3%;
+    }
+    h3{
+      padding-bottom: 3%;
+      font-weight: 600;
+    }
+    h4{
+      font-weight: 600;
+      padding-bottom: 3%;
+      padding-top: 3%;
+    }
+    hr{
+      border-top: 1px solid #c68345;
+      padding: 3%;
+    }
+    .navbar {
+  
+      background-color: #876f58;     
+    }
+    .content{
+      color: black;
+      text-align: justify;
+    }
+    nav a{
+      color: white;
+      text-decoration: none;
+    }
+    nav a:hover{
+      color: #3d2208;
+    }
+
+    nav li:hover{
+      background-color: white;
+      border-radius: 15px 
+    }
+    nav ul{
+      margin-top: 10px;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 500px}
+
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color:#876f58;
+      color: white;
+      padding: 15px;
+      
+    }
+    .filtros select{
+      position: relative;
+    }
+    footer input {
+
+      width:13%;
+    }
+    footer label{
+      margin-left: 5%;
+      font-weight: 500;
+    }
+    .logo{
+      width: 50px;
+      height: 50px;
+      padding-right: 700px;
+    
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  

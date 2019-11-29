@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mingle</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"></script>
+  <script src="../p5.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body id="index">
+
+<nav class="navbar">
+  <div class=" row">
+    <div class=" col">
+
+      <a class="navbar-brand logo col " href="index.html"><img src="logo branco.png"></a>
+    </div>
+    <div  id="myNavbar" class="col  ">
+      <ul class="nav navbar-nav ">
+        <div class="row">
+          <li><a href="index.html" class="active col">Home</a></li>
+          <li><a href="ce.html" class="col">Concepts & examples</a></li>
+          <li><a href="tutorial.html" class="col">Tutorial</a></li>
+          <li><a href="about.html" class="col">About</a></li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container text-center">    
+  <div class="row content">
+	
+  </div>
+</div>
+
+<footer>
+	<form>
+    <div id="filtros">
+      <label>Progression</label>
+      <select name="progress">
+        <option value="valor1">Slow (50bpm)</option> 
+        <option value="valor2" selected>Moderate (90bpm)</option>
+        <option value="valor3">Fast (130 bpm)</option>
+      </select>
+      <label>Type 4 notes</label>
+      <input type="text" name="notas">
+      <label>Jingle name</label>
+      <input type="text" name="nome">
+      <label></label>
+      <input class="btn btn-light" type="button" name="gerar" value="Gerar">
+    </div>
+	</form>
+</footer>
+
+</body>
+</html>
